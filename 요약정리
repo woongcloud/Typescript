@@ -1,0 +1,18 @@
+Typescript
+
+Typescript 시작할때 package.json/tsc설치 및 tsp.config 확인해야함 
+
+Npx tsc = ts파일 js파일로 변환
+
+array[] 빈배열에는 never타입이 되기 때문에 타입 선언을 해줘야함 
+
+!(느낌표)는 null이나 undefined가 아니라는것임. 근데 안쓰는게 좋음
+
+타입선언할때 소문자로하자!! string이렇게 
+
+타입을 커스텀할수도 있음. (타입 이름을 대문자로 해야 다른것들과 차별화를 둘수있다.)
+Ex)
+type World = ‘world’;
+Const a: World = ‘world’ ; 이렇게
+
+그리고 object에 지정할 속성이 너무 많으면  [key : string ]  <- “모든 object 속성” 이렇게 한다
